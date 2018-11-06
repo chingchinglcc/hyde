@@ -1,0 +1,33 @@
+{
+  "name": "hyde",
+  "version": "1.0.0",
+  "description": "Hyde is a brazen two-column [Jekyll](http://jekyllrb.com) theme that pairs a prominent sidebar with uncomplicated content. It's based on [Poole](http://getpoole.com), the Jekyll butler.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/chingchinglcc/hyde.git"
+  },
+  "keywords": [
+    "jekyll"
+  ],
+  "author": "chingchinglee",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/chingchinglcc/hyde/issues"
+  },
+  "homepage": "https://github.com/chingchinglcc/hyde#readme",
+  "devDependencies": {
+    "gulp": "^3.9.1",
+    "gulp-autoprefixer": "^4.0.0",
+    "gulp-clean-css": "^3.9.0",
+    "gulp-eslint": "^4.0.0",
+    "gulp-rename": "^1.2.2",
+    "gulp-sass": "^3.1.0",
+    "gulp-stylelint": "^5.0.0",
+    "gulp-uglify": "^3.0.0",
+    "gulp-zip": "^4.0.0"
+  }
+}

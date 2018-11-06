@@ -1,26 +1,39 @@
 # Dependencies
-markdown:         redcarpet
-highlighter:      pygments
+markdown: kramdown
+highlighter: pygments
 
 # Permalinks
-permalink:        pretty
-relative_permalinks: true
+permalink: /:year/:month/:day/:title/
 
 # Setup
-title:            Hyde
-tagline:          'A Jekyll theme'
-description:      'A brazen two-column <a href="http://jekyllrb.com" target="_blank">Jekyll</a> theme that pairs a prominent sidebar with uncomplicated content. Made by <a href="https://twitter.com/mdo" target="_blank">@mdo</a>.'
-url:              http://hyde.getpoole.com
-baseurl:          /
+title: Hyde 2.0
+tagline: 'A Jekyll theme'
+description: 'The updated version of Hyde them'
+url: http://hyde.getpoole.com
+baseurl: ""
 
 author:
-  name:           'Mark Otto'
-  url:            https://twitter.com/mdo
+  name: 'Ching Ching'
+  url: https://chingchinglee.com
 
-paginate:         5
+paginate: 12
 
 # Custom vars
-version:          2.1.0
+version: 3.8.5
 
-github:
-  repo:           https://github.com/poole/hyde
+# Uncomment the repo line to run GitHub Page
+# github:
+#   repo:           https://github.com/poole/hyde
+
+# Plugin
+plugins:
+- jekyll-paginate
+- jekyll-sitemap
+
+exclude:
+- Gemfile
+- Gemfile.lock
+- package.json
+- node_modules
+- gulpfile.js
+- README.md
